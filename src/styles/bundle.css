@@ -1,0 +1,27 @@
+.App {
+  max-width: 600px;
+  margin: 2rem auto;
+}
+.App ul {
+  padding: 0;
+  list-style-type: none;
+}
+.App ul li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.App ul li div {
+  margin-left: 5px;
+  flex-grow: 2;
+}
+.App ul.filters {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=bundle.css.map */

@@ -1,0 +1,29 @@
+.App {
+  max-width: 600px;
+  margin: 2rem auto;
+
+  ul {
+    padding: 0;
+    list-style-type: none;
+  
+    li {
+      margin: 10px 0;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        margin-left: 5px;
+        flex-grow: 2;
+      }
+    }
+  }
+
+  ul.filters {
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
